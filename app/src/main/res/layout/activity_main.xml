@@ -10,7 +10,7 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Prender"
+        android:text="@string/prender"
         tools:layout_editor_absoluteX="141dp"
         tools:layout_editor_absoluteY="160dp" />
 
@@ -18,23 +18,16 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lista Movimiento"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="267dp" />
+        android:text="@string/lista_movimiento"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="290dp" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Apagar"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="369dp" />
-
-    <com.google.android.material.navigation.NavigationView
-        android:id="@+id/nav"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        app:menu="@menu/menu" />
+        android:text="@string/apagar"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="416dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
